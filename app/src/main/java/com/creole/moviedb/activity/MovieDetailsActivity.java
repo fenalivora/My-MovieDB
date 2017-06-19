@@ -58,7 +58,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
         Picasso picasso = Picasso.with(this);
         picasso.setLoggingEnabled(true);
         picasso.load(imagePath).into(image);
-        
+
 
         String textTitle = mMovie.getTitle();
         String textOverview = mMovie.getOverview();
